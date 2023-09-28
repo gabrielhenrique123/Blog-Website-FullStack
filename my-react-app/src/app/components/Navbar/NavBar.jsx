@@ -11,7 +11,7 @@ export default function NavBar() {
                         <a href="" className="text-2xl text-indigo-600">Blog</a>
                     </div>
                     <div className="flex h-10">
-                        <input type="search" className=" border-2 border-black rounded-md w-96 border-zinc-950 hover:" placeholder="Search..."/>
+                        <input type="search" className=" border-2 border-black rounded-md w-96 border-zinc-950 hover:" placeholder="Search..." style={{ textAlign:'center'}} />
                     </div>
                 </ul>
                 <ul className="grid grid-rows-1 grid-cols-3 w-1/4 items-center ">
